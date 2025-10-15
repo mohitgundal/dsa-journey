@@ -35,3 +35,15 @@ class Solution {
         return original == reverse;
     }
 }
+
+
+/* Local testing */
+public class PalindromicArray {
+    public static void main(String[] args) {
+        int[] arr1 = {111, 222, 333, 444, 555};
+        int[] arr2 = {121, 131, 20};
+
+        System.out.println(Solution.PalinArray(arr1, arr1.length)); // true
+        System.out.println(Solution.PalinArray(arr2, arr2.length)); // false
+    }
+}
